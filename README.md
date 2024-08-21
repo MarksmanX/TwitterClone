@@ -15,7 +15,7 @@ Ensure you have the following installed:
 
    First, clone the repository to your local machine:
 
-   git clone https://github.com/MarksmanX/TwitterClone
+   git clone https://github.com/MarksmanX/TwitterClone.git
    cd TwitterClone
 
 2. Create a Virtual Environment
