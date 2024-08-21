@@ -1,29 +1,26 @@
-This is a Flask application that functions as a Twitter clone. 
-Follow the instructions below to set up and run the application on your 
-local machine.
+This is a Flask application that functions as a Twitter clone. Follow the instructions below to set up and run the application on your local machine.
 
-## Prerequisites
-
+Prerequisites
 Ensure you have the following installed:
-- Python 3.7 or higher
-- PostgreSQL (if using PostgreSQL) or SQLite (if using SQLite)
+
+Python 3.7 or higher
+- SQLite
 - pip (Python package installer)
+- Setup
 
-## Setup
+1. Clone the Repository
 
-1. **Clone the Repository**
+First, clone the repository to your local machine:
 
-   First, clone the repository to your local machine:
+git clone https://github.com/MarksmanX/TwitterClone.git
 
-   git clone https://github.com/MarksmanX/TwitterClone.git
-   
-   cd TwitterClone
+cd TwitterClone
 
-3. Create a Virtual Environment
+2. Create a Virtual Environment
 
 python -m venv venv
 
-source venv/bin/activate        # On Windows, use `venv\Scripts\activate`
+source venv/bin/activate # On Windows, use venv\Scripts\activate
 
 3. Install Dependencies
 
@@ -31,22 +28,7 @@ Install the required Python packages listed in requirements.txt:
 
 pip install -r requirements.txt
 
-4. Configure the Database
-
-For PostgreSQL: Update the DATABASE_URL environment variable in your .env file 
-(create one if it doesn’t exist). Example format:
-
-DATABASE_URL=postgresql://username:password@localhost/dbname
-Make sure PostgreSQL is running and that the database and user specified 
-in the DATABASE_URL exist.
-
-5. Run Migrations
-
-If using PostgreSQL and you need to set up the database schema, run:
-
-flask db upgrade
-
-6. Run the Application
+4. Run the Application
 
 You can now start the Flask application:
 
