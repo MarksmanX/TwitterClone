@@ -33,8 +33,6 @@ pip install -r requirements.txt
 
 4. Configure the Database
 
-For SQLite: Ensure the RazorPagesDemo.db file is present in the project directory. This file should be included in the repository.
-
 For PostgreSQL: Update the DATABASE_URL environment variable in your .env file 
 (create one if it doesn’t exist). Example format:
 
