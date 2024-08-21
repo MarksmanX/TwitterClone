@@ -16,9 +16,10 @@ Ensure you have the following installed:
    First, clone the repository to your local machine:
 
    git clone https://github.com/MarksmanX/TwitterClone.git
+   
    cd TwitterClone
 
-2. Create a Virtual Environment
+3. Create a Virtual Environment
 
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
